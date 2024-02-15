@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(88, 42, 227);
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(64, 35, 233);
+    font-weight: 600;
+    background-color: rgb(156, 204, 255);
+    text-align: center;
+    align-self: stretch;
+    padding: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.game-tutorial {
+    text-align: center;
+    background: rgb(156, 204, 255);
+
+    padding: 1rem;
+}
+
+.game-tutorial h2 {
+
+
+    font-size: 1.5rem;
+    color: rgb(64, 35, 233);
+}
+
+
+
+.game-difficulity-menu {
+    margin: 1rem;
+}
+
+.game-tutorial p {
+    margin: 1rem
+}
+
+.game-tutorial h2+p {
+    color: rgb(0, 106, 255);
+    text-decoration: underline;
+}
+
+
+input[type='submit'] {
+    padding: 0.2rem 1.2rem;
+
+}
